@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseRepositories", "Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASH.CodeTest.Common", "ASH.CodeTest.Common\ASH.CodeTest.Common.csproj", "{A718949F-DA37-4B8D-B4A9-B561BA8B22A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeRepository", "EmployeeRepository\EmployeeRepository.csproj", "{9F141C6F-8723-4990-A6D5-FD5158B8E2EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{A718949F-DA37-4B8D-B4A9-B561BA8B22A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A718949F-DA37-4B8D-B4A9-B561BA8B22A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A718949F-DA37-4B8D-B4A9-B561BA8B22A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F141C6F-8723-4990-A6D5-FD5158B8E2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F141C6F-8723-4990-A6D5-FD5158B8E2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F141C6F-8723-4990-A6D5-FD5158B8E2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F141C6F-8723-4990-A6D5-FD5158B8E2EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +71,7 @@ Global
 		{F0227621-EE81-45F1-BB7D-15AA2FF9437B} = {D7265FC7-F7A4-43B4-A1DB-1623FC4F2079}
 		{C06DE7EB-7F42-41AD-AF00-7FA7AE74D085} = {BF5425CF-D4D7-4F6F-9FF8-615DC187D7A2}
 		{35003D1E-FD58-4A39-8B51-691BD195D579} = {BF5425CF-D4D7-4F6F-9FF8-615DC187D7A2}
+		{9F141C6F-8723-4990-A6D5-FD5158B8E2EC} = {35003D1E-FD58-4A39-8B51-691BD195D579}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2695B67F-9F11-4BEB-8307-38B4B66D6F88}

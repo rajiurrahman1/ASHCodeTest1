@@ -1,4 +1,4 @@
-﻿namespace ASH.Services
+﻿namespace EmployeeRepository
 {
     public class Class1
     {
