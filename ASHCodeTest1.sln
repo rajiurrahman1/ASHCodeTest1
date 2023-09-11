@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33927.249
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASHCodeTest1.API", "ASHCodeTest1\ASHCodeTest1.API.csproj", "{DCB2C79C-D020-4AD1-AE0F-C787591738AD}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{DD78456F-E9C0-4CB2-B2AC-C256A9B08A2E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{BF5425CF-D4D7-4F6F-9FF8-615DC187D7A2}"
@@ -15,19 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{7DE8AD5A-9CFE-4A69-9F1E-7A18A82DEAA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASHCodeTest1.API.Tests", "ASHCodeTest1.API.Tests\ASHCodeTest1.API.Tests.csproj", "{FA74AA7A-B5CC-4125-93CC-2D3336BF6201}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASHCodeTest1.API.Tests", "ASHCodeTest1.API.Tests\ASHCodeTest1.API.Tests.csproj", "{FA74AA7A-B5CC-4125-93CC-2D3336BF6201}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASH.CodeTest.Services", "ASH.CodeTest.Services\ASH.CodeTest.Services.csproj", "{064EFB81-A264-4E78-A260-9CC0C4237417}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASH.CodeTest.Services", "ASH.CodeTest.Services\ASH.CodeTest.Services.csproj", "{064EFB81-A264-4E78-A260-9CC0C4237417}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASH.CodeTest.Services.Tests", "ASH.CodeTest.Services.Tests\ASH.CodeTest.Services.Tests.csproj", "{F0227621-EE81-45F1-BB7D-15AA2FF9437B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASH.CodeTest.Services.Tests", "ASH.CodeTest.Services.Tests\ASH.CodeTest.Services.Tests.csproj", "{F0227621-EE81-45F1-BB7D-15AA2FF9437B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalApiRepositories", "ExternalApiRepositories", "{C06DE7EB-7F42-41AD-AF00-7FA7AE74D085}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseRepositories", "DatabaseRepositories", "{35003D1E-FD58-4A39-8B51-691BD195D579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASH.CodeTest.Common", "ASH.CodeTest.Common\ASH.CodeTest.Common.csproj", "{A718949F-DA37-4B8D-B4A9-B561BA8B22A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASH.CodeTest.Common", "ASH.CodeTest.Common\ASH.CodeTest.Common.csproj", "{A718949F-DA37-4B8D-B4A9-B561BA8B22A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeRepository", "EmployeeRepository\EmployeeRepository.csproj", "{9F141C6F-8723-4990-A6D5-FD5158B8E2EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeRepository", "EmployeeRepository\EmployeeRepository.csproj", "{9F141C6F-8723-4990-A6D5-FD5158B8E2EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASHCodeTest1.API", "ASHCodeTest1.API\ASHCodeTest1.API.csproj", "{98AF6AF4-6996-4C1B-8F25-B0BE7EAEF2E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DCB2C79C-D020-4AD1-AE0F-C787591738AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DCB2C79C-D020-4AD1-AE0F-C787591738AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DCB2C79C-D020-4AD1-AE0F-C787591738AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DCB2C79C-D020-4AD1-AE0F-C787591738AD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FA74AA7A-B5CC-4125-93CC-2D3336BF6201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FA74AA7A-B5CC-4125-93CC-2D3336BF6201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA74AA7A-B5CC-4125-93CC-2D3336BF6201}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -59,6 +55,10 @@ Global
 		{9F141C6F-8723-4990-A6D5-FD5158B8E2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F141C6F-8723-4990-A6D5-FD5158B8E2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F141C6F-8723-4990-A6D5-FD5158B8E2EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98AF6AF4-6996-4C1B-8F25-B0BE7EAEF2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98AF6AF4-6996-4C1B-8F25-B0BE7EAEF2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98AF6AF4-6996-4C1B-8F25-B0BE7EAEF2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98AF6AF4-6996-4C1B-8F25-B0BE7EAEF2E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

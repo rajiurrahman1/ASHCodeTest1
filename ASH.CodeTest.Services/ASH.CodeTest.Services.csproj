@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ASH.CodeTest.Common\ASH.CodeTest.Common.csproj" />
+    <ProjectReference Include="..\EmployeeRepository\EmployeeRepository.csproj" />
+  </ItemGroup>
+
 </Project>
