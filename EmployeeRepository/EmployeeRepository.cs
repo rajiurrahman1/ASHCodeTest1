@@ -25,7 +25,8 @@ namespace EmployeeRepository
 
             IEnumerable<Employee> results = null;
             string query = "SELECT " +
-                "Employee.EmployeeId, Employee.FirstName, Employee.LastName, ST.SalaryType, ST.Salary " +
+                "Employee.EmployeeId, Employee.FirstName, Employee.LastName, Employee.EmployeeType" +
+                "ST.SalaryType, ST.Salary " +
                 "FROM Employee JOIN Employee_SalaryType AS ES ON Employee.EmployeeId = ES.EmployeeId" +
                 "JOIN SalaryType ST ON ES.SalaryTypeId = ST.SalaryTypeId";
 
@@ -51,6 +52,7 @@ namespace EmployeeRepository
 
         public Task<int> AddEmployee(Employee employee)
         {
+            //Didn't get time to finish this part
             return null;
         }
     }
